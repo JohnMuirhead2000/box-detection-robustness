@@ -1,0 +1,13 @@
+axis,condition,images,truth_boxes,tp,fp,fn,precision,recall,f1
+overall,all,57,68,53,29,15,0.646,0.779,0.707
+boxes,multiple_box,19,43,35,10,8,0.778,0.814,0.795
+boxes,box,25,25,18,15,7,0.545,0.72,0.621
+boxes,no_box,13,0,0,4,0,0.0,0.0,0.0
+blur,sharp,47,61,46,26,15,0.639,0.754,0.692
+blur,blur,10,7,7,3,0,0.7,1.0,0.824
+occlusion,occluded,35,57,43,23,14,0.652,0.754,0.699
+occlusion,unoccluded,22,11,10,6,1,0.625,0.909,0.741
+color,mixed,10,20,17,6,3,0.739,0.85,0.791
+color,brown,26,39,32,9,7,0.78,0.821,0.8
+color,white,8,9,4,10,5,0.286,0.444,0.348
+color,none,13,0,0,4,0,0.0,0.0,0.0
